@@ -69,8 +69,8 @@ print(hash_result)
 7. 100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
 - Bitų lygmenyje:
   - Minimali skirtingumo reikšmė: **0%**
-  - Maksimali skirtingumo reikšmė: **100%**
-  - Vidurinė skirtingumo reikšmė: **92.2199%**
+  - Maksimali skirtingumo reikšmė: **42.1875%**
+  - Vidurinė skirtingumo reikšmė: **32.4734%**
 - Hexo lygmenyje:
   - Minimali skirtingumo reikšmė: **0%**
   - Maksimali skirtingumo reikšmė: **100%**
