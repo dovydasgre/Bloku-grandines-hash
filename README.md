@@ -89,7 +89,7 @@ print(hash_result)
 
 100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
   
-   ## Bitų lygmenyje:                                            ## Hexo lygmenyje:
+   ## Bitų lygmenyje:                                                Hexo lygmenyje:
 |             | customHash |    SHA256  |  Skirtumas |            |             | customHash |    SHA256  |  Skirtumas |
 |-------------|------------|------------|------------|            |-------------|------------|------------|------------|
 |     MIN     |      0%    |     0%     |     0%     |            |     MIN     |     0%     |      0%    |     0%     |
