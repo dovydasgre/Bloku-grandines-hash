@@ -87,8 +87,7 @@ print(hash_result)
 1. Mano Hash funkcijos ir SHA256 spartos palyginimas.
   <br/>![comparision](https://github.com/dovydasgre/Bloku-grandines-hash/assets/126052244/345ffa3a-98dc-4afc-af53-ebd0af96722b)
 
-    100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
-  
+   - 100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
 ## Bitų lygmenyje:
 |             | customHash |    SHA256  |  Skirtumas |
 |-------------|------------|------------|------------|
