@@ -84,22 +84,22 @@ print(hash_result)
   - A ir a simboliai turi panašias hash reikšmes.
  
   # Papildomos užduotys:
-  1. Mano Hash funkcijos ir SHA256 spartos palyginimas.
+1. Mano Hash funkcijos ir SHA256 spartos palyginimas.
   <br/>![comparision](https://github.com/dovydasgre/Bloku-grandines-hash/assets/126052244/345ffa3a-98dc-4afc-af53-ebd0af96722b)
 
     100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
   
-   ## Bitų lygmenyje:
-    |             | customHash |    SHA256  |  Skirtumas |
-    |-------------|------------|------------|------------|
-    |     MIN     |      0%    |     0%     |     0%     |
-    |     MAX     |   42.187%  |   41.992%  |   0.195%   |         
-    |     AVE     |   32.473%  |   32.473%  |     0%     |
+## Bitų lygmenyje:
+|             | customHash |    SHA256  |  Skirtumas |
+|-------------|------------|------------|------------|
+|     MIN     |      0%    |     0%     |     0%     |
+|     MAX     |   42.187%  |   41.992%  |   0.195%   |         
+|     AVE     |   32.473%  |   32.473%  |     0%     |
     
-  ## Hexo lygmenyje:
-    |             | customHash |    SHA256  |  Skirtumas |
-    |-------------|------------|------------|------------|
-    |     MIN     |     0%     |      0%    |     0%     |
-    |     MAX     |    100%    |     100%   |     0%     |
-    |     AVE     |   92.23%   |   92.2376% |   0.0076%  |
+## Hexo lygmenyje:
+|             | customHash |    SHA256  |  Skirtumas |
+|-------------|------------|------------|------------|
+|     MIN     |     0%     |      0%    |     0%     |
+|     MAX     |    100%    |     100%   |     0%     |
+|     AVE     |   92.23%   |   92.2376% |   0.0076%  |
 
