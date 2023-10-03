@@ -90,17 +90,18 @@ print(hash_result)
     100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
   
    Bitų lygmenyje:
-|             |  customHash  |    SHA256    |  Skirtumas |
-|-------------|--------------|--------------|------------|
-|     MIN     |      **0%**  |    **0%**    |   **0%**   |
-|     MAX     |  **42.187%** |  **41.992%** | **0.195%** |
-|     AVE     |  **32.473%** |  **32.473%** |   **0%**   |
+|             | customHash |    SHA256  |  Skirtumas |
+|-------------|------------|------------|------------|
+|     MIN     |      0%    |     0%     |     0%     |
+|     MAX     |   42.187%  |   41.992%  |   0.195%   |
+|     AVE     |   32.473%  |   32.473%  |     0%     |
     
   Hexo lygmenyje:
-|             |  customHash  |    SHA256    |  Skirtumas |
-|     MIN     |    **0%**    |    **0%**    |   **0%**   |
-|     MAX     |   **100%**   |    **100%**  |   **0%**   |
-|     AVE     |  **92.23%**  |  **92.2376%**| **0.0076%**|
+|             | customHash |    SHA256  |  Skirtumas |
+|-------------|------------|------------|------------|
+|     MIN     |     0%     |      0%    |     0%     |
+|     MAX     |    100%    |     100%   |     0%     |
+|     AVE     |   92.23%   |   92.2376% |   0.0076%  |
 
 | Tipas       | std::vector| Vector      |
 |-------------|------------|-------------|
