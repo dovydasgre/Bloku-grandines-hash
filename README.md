@@ -92,7 +92,7 @@ print(hash_result)
 - File - oneSymbol2.txt, customHash - cb99ca58e175905b36e841ddcf7dd1bb7326eb611c9def3b89f08abc30e6b5e5
 - File - oneSymbol1.txt, SHA256 - ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb
 - File - oneSymbol2.txt, SHA256 - 559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd
-  SHA256 turi pranašumą hash'uojant vieną simbolį.
+
 1.2 Skirtumo didelio nėra hash'uojant eilutę kurioje skiriasi tik vienas simbolis.
 - File - oneSymbolDiff1.txt, customHash - 64e115d63d986f8acfb1f4631a0c7fa12f13fca5786d8dc0f4180e4c405ca65e
 - File - oneSymbolDiff2.txt, customHash - c664d29d18365c888dc818e1712b53ebcd37159f5c50fc7aaa1dca0bfc37abd9
