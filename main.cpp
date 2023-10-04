@@ -5,6 +5,7 @@
 #include <string>
 #include <cstdint>
 #include <cstring>
+#include <ctime>
 
 using namespace std;
 
@@ -28,6 +29,22 @@ void readFile(string input) {
         cout << "Nepavyko atidaryti failo." << endl;
         exit;
     }
+}
+
+string salt (string input, int saltLength) {
+    string result, salt;
+    const string saltCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+    srand(static_cast<unsigned int>(time(nullptr)));
+
+    for (int i = 0; i < saltLength; ++i) {
+        int randomIndex = rand() % saltCharacters.length();
+        salt += saltCharacters[randomIndex];
+    }
+
+    result = salt + input;
+
+    return result;
 }
 
 uint32_t Mix(uint32_t a, uint32_t b, uint32_t c) {
@@ -65,6 +82,7 @@ std::string customHash(const std::string& input) {
 }
 
 int main () {
+    int saltLength = 16;
     bool choice;
     string input, hash;
     cout << "Skaityti faila (1), ivesti (0): ";	cin >> choice;
@@ -73,6 +91,10 @@ int main () {
     } else {
         getline(cin >> ws, input);
     }
+    cout << "Orginalus input: " << input << endl; 
+    cout << "Orginalus hash: " << customHash(input) << endl;
+    input = salt(input, saltLength);
+    cout << "Input su salt: " << input << endl;
     hash = customHash(input);
-    cout << hash << endl;
+    cout << "Hash su salt: " << hash << endl;
 }
