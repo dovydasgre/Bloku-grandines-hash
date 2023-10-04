@@ -86,24 +86,23 @@ print(hash_result)
   # Papildomos užduotys:
 1. Mano Hash funkcijos ir SHA256 spartos palyginimas.
   <br/>![comparision](https://github.com/dovydasgre/Bloku-grandines-hash/assets/126052244/345ffa3a-98dc-4afc-af53-ebd0af96722b)
-<br/>
+
+1.1 SHA256 turi pranašumą hash'uojant vieną simbolį.
 - File - oneSymbol1.txt, customHash - cb99ca78e175907b36e841fdcf7dd1db7326eb811c9def5b89f08adc2ce6a645
 - File - oneSymbol2.txt, customHash - cb99ca58e175905b36e841ddcf7dd1bb7326eb611c9def3b89f08abc30e6b5e5
 - File - oneSymbol1.txt, SHA256 - ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb
 - File - oneSymbol2.txt, SHA256 - 559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd
-  <br/>SHA256 turi pranašumą hash'uojant vieną simbolį.
-  
+  SHA256 turi pranašumą hash'uojant vieną simbolį.
+1.2 Skirtumo didelio nėra hash'uojant eilutę kurioje skiriasi tik vienas simbolis.
 - File - oneSymbolDiff1.txt, customHash - 64e115d63d986f8acfb1f4631a0c7fa12f13fca5786d8dc0f4180e4c405ca65e
 - File - oneSymbolDiff2.txt, customHash - c664d29d18365c888dc818e1712b53ebcd37159f5c50fc7aaa1dca0bfc37abd9
 - File - oneSymbolDiff1.txt, SHA256 - 46ec492b571fa9226a514a651a00ace1b0494c1acfa4e11a6b536ba47724df84
 - File - oneSymbolDiff2.txt, SHA256 - 3019b9c8745801e87a11548b32a4dcbed13a2073571990a254f8a9338d4a82f4
-  <br/>Skirtumo didelio nėra hash'uojant eilutę kurioje skiriasi tik vienas simbolis.
-
+1.3 Skirtumo nėra hash'uojant eilutę, kurioje yra daugiau nei 1000 simbolių.
 - File - 1001random1.txt, customHash - bae1a0484274b2c886d637565eb05622dcd27f8230dc188f9706d75891f09b15
 - File - 1001random2.txt, customHash - 2239de4061446c38e014b2db65f0d4c7c29ba690566929fb1b0ef27430a5098d
 - File - 1001random1.txt, SHA256 - 4b41cf7137e552d024513abb37e972567a409b3232fe24b88afcfe4d3e3c183a
 - File - 1001random2.txt, SHA256 - c640948052a7a2837c541cde11f729d3c07bd67021ac2b0cee4b6c31f5224da9
-  <br/>Skirtumo nėra hash'uojant eilutę, kurioje yra daugiau nei 1000 simbolių.
 
    - 100 000 atsitiktinių simbolių eilučių porų, 32 simbolių eilučių ilgiu, juos skiria tik vienas simbolis. Įvertinamas gautų hash'ų procentinis "skirtingumas" bitų lygmenyje:
 ## Bitų lygmenyje:
