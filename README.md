@@ -1,5 +1,12 @@
 ## Hash generatorius
 
+# Paleidimas
+Paleidimas:
+Nusikopijuokite GitHub repozitoriją: git clone https://github.com/dovydasgre/Bloku-grandines-hash 
+Atidaryti repozitoriją: cd {folder name}/Bloku-grandines-hash/ 
+Sukompiliuoti: g++ -o main main.cpp
+Paleisti programą: ./main 
+
 # Maišos funkcijos pseudo kodas
 <pre>
 # Define constants for the initial hash values
