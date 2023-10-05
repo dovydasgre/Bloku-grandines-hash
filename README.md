@@ -120,3 +120,15 @@ print(hash_result)
 |     MAX     |    100%    |     100%   |     0%     |
 |     AVE     |   92.23%   |   92.2376% |   0.0076%  |
 
+# Išvados
+- SHA256 hash funkcija yra spartesnė.
+- SHA256 geriau hash'uoja po viena raidę, daugiau skirtingumo tarp vieno simbolio hash'ų.
+- SHA256 ir customHash hash'uoja panašiai daugiau simbolių turinčias eilutes.
+- SHA256 ir customHash skirtumas biy'ų ir hexo lygmenyje yra panašūs.
+
+2. Hiding ir puzzle-friendliness
+   - Hiding ir puzzle-friendliness yra įgyvendintas dvejais būdais. Pirmas yra naudoja hash-code, kuris leidžia labiau išmaišyti įvestį.
+   - Hiding ir puzzle friendliness V0.2 versijoje yra patobulinta, pridedant salt'us.
+   - Praktiškai yra neįmanoma atgaminti tokio y, kad H(y) = H(x|r), kur x yra input, o r yra atsitiktinai parinktas string. y nebūtinai yra lygus x|r.
+   - Sunku surasti tokį x, kad H(r|x) = y. Tai yra labai sudėtinga, nes dėl to, kad kelios įvestys gali turėti tą patį hash, todėl gali būti taip, kad surasite tokį y, kad bus lygus H(x|r), bet jis nebus tikrasis atsakymas.
+   - Atgaminti pradinę įvestį yra neįmanoma.
